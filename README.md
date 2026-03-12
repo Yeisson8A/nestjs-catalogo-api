@@ -25,6 +25,15 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Environment
+
+- **DB_HOST**: Host of the database server, or of the container in Docker.
+- **DB_PORT**: Database server port; for PostgreSQL, the default port is 5432.
+- **DB_USER**: Database server user.
+- **DB_PASSWORD**: Database server user password.
+- **DB_NAME**: Database name.
+- **DB_SYNC**: Indicates that tables should be created automatically.
+
 ## Project setup
 
 ```bash
